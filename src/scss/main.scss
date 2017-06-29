@@ -1,6 +1,41 @@
 @import 'resolutions';
+@import 'colors';
+@import 'fonts';
 
-.separador{
-	width: 90%;
-	background:blue;
+@mixin separator{
+	width:100%;
+	height: 4px;
+	background: $color-azul;
 }
+@mixin icons{
+	width:100%;
+	padding-top:20px;
+	img{
+		width: 50px;
+	}
+}
+
+nav{
+	text-align:$center;
+	a{
+	text-decoration: $none
+
+	}
+}
+
+ .separator{
+ 	@include separator;
+ }
+ #container-logo{
+ 	left:$izquierda;
+ }
+
+ #connect{
+ 	ul{
+ 	list-style: $none;
+ 	}	
+ }
+ 
+ .icon{
+ 	@include icons;
+ }
