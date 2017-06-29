@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Poppins', sans-serif; }
 
 .container {
   width: 90%;
@@ -59,8 +60,26 @@ img {
 .col-12 {
   width: 100%; }
 
-.separador {
-  width: 90%;
-  background: blue; }
+nav {
+  text-align: center; }
+  nav a {
+    text-decoration: none; }
+
+.separator {
+  width: 100%;
+  height: 4px;
+  background: #4285f4; }
+
+#container-logo {
+  left: left; }
+
+#connect ul {
+  list-style: none; }
+
+.icon {
+  width: 100%;
+  padding-top: 20px; }
+  .icon img {
+    width: 50px; }
 
 /*# sourceMappingURL=style.css.map */
